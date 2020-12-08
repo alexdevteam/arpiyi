@@ -1,5 +1,22 @@
+# Important note
+Arpiyi is no longer in active development, however, I might return to it at any point in time if
+enough people are interested in it or I get inspired. It has been "abandoned" while being rewritten,
+making it a hard job to start working on it again. Currently, the `master` branch is the most stable
+one, `unstable` is kind of usable with a lot of newer features, and `new_tile_system` is completely
+unusable. I was planning to merge `new_tile_system` into `unstable` and `unstable` into `master`,
+but the amount of work needed to change everything is brutal. I made some really poor decisions while
+starting the project (i.e. basing the editor GUI on ImGui or not thinking the map/sprite types properly),
+leading into heavy tech debt down the line.
+
+Even having these huge internal problems, for some reason, I diverged my interest from making the editor
+better to changing its graphics pipeline completely, and thus [Aryibi](https://github.com/alexdevteam/aryibi)
+was born. This was completely unnecesary. I could've perfectly used SFML or any other framework for graphics.
+
+And so here we are. Two unfinished, completely broken projects that led to nothing. Thanks for reading
+up until here.
+
 ## Arpiyi Editor
-Arpiyi is an open-sourced 2D RPG editor in development designed to be modular,
+Arpiyi is an open-sourced 2D RPG editor in development designed to be modular and
 extensible. Its objective is to be a more advanced alternative to other competing software,
 with features such as a cutscene editor.
 
